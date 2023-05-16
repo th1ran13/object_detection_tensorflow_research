@@ -1,0 +1,6 @@
+cat
+chair
+dog
+knife
+person
+table

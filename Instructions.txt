@@ -1,0 +1,13 @@
+run inside tflite-env
+
+python TFLite_detection_webcam.py --modeldir=custom_model_lite
+python TFLite_detection_video.py --modeldir=custom_model_lite
+
+
+python3 TFLite_detection_webcam.py --modeldir=custom_model_lite
+
+Raspberrry Pi
+
+source tflite-env/bin/activate
+cd tflite1/object_detection
+python3 TFLite_detection_webcam.py --modeldir=custom_model_lite
